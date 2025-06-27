@@ -1,8 +1,11 @@
+
+import profilePic from './photo.jpg';
+
 const About = () => (
   <section id="about">
     <h2>About Me</h2>
      <img
-      src="/photo.jpg"
+      src={profilePic}
       alt="Saikumar Profile"
       style={{
         width: '150px',
